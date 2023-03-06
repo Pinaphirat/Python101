@@ -1,7 +1,4 @@
 from tkinter import *
-from tkinter import ttk  # theme of tk
-import tkinter as tk
-import math
 
 GUI = Tk()
 GUI.title('โปรแกรมคำนวณ BMI')
@@ -27,5 +24,6 @@ label = Label(GUI, text="BMI", font=('Calibri 15'))
 label.pack(pady=20)
 
 Button(GUI, text="คำนวณ", command=get).pack()
+
 
 GUI.mainloop()

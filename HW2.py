@@ -28,18 +28,4 @@ label.pack(pady=20)
 
 Button(GUI, text="คำนวณ", command=get).pack()
 
-
-# def Button1():
-#     value = StringVar()
-#     value.set("Enter your weight")
-#     entry = Entry(GUI, textvariable=value)
-#     entry.pack()
-
-
-# FB1 = Frame(GUI)
-# FB1.place(x=160, y=30)  # กำหนดpositionตามแกน x,y
-# B2 = ttk.Button(FB1, text='คำนวณ', command=Button1)
-# B2.pack(ipadx=20, ipady=20)
-
-
 GUI.mainloop()
